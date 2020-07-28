@@ -1,16 +1,19 @@
 # CHANGES FROM UPSTREAM
-+ Improved top bar visibility
-+ Slightly reduced top bar height 
++ Improved top bar visibility by increasing font size and slightly reducing bar height 
 + Made opaque elements subtly transparent
 
-**How it looks now?**
+**How it looks now**
 
-![Panel OSD](screenshots/arc-dark-glass1.png)
-![Title bar](screenshots/arc-dark-glass2.png)
+![Title bar](screenshots/arc-dark-glass1.png)
+![Panel OSD](screenshots/arc-dark-glass2.png)
 ![Overview](screenshots/arc-dark-glass3.png)
 
+**How it looked before**
 
-**README from upstream...**
+![Theme before](screenshots/arc-dark-glass0.png)
+
+
+**README from upstream bellow...**
 
 # Arc Theme
 
