@@ -802,9 +802,9 @@ StScrollBar {
 //
 #panel {
   font-weight: bold;
-  font-size: 1.2em;
   font-feature-settings: "tnum";
-  height: 1.75em;
+  @include fontsize($font-size * 1.2);
+  height: $font-size * 2.6px;
   background-gradient-direction: none;
   background-color: $shell_osd_background_color;
   //background-clip: padding-box;
