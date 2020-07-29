@@ -32,20 +32,3 @@ Because this theme is heavily based on the pixmap engine, a lot of the styling c
 
 * Save `assets.svg` and run `make` (or `make -j$(nproc)` if you're in a hurry) from a terminal in the parent directory.
 
----
-
-### Contributing to the project
-
-The main purpose of this fork is to *maintain* the theme. This means that all major changes to the visual style should be avoided, unless there are very good reason for them.
-
-All contributions to the theme are appreciated, as long as they are useful and well implemented, and don't increase the maintenance load, or unnecessarily alter the visual style. If you're unsure about anything, or would like to work on some larger project, it's not a bad idea to open an issue for discussion before submitting a pull request.
-
-#### Sending pull requests
-
-Nicely split single-purpose commits, and clean and descriptive commit messages are greatly appreciated. Please abide by the following commit message guidelines if possible:
-
-* Prepend the first line of the message with a tag describing what part of the theme is affected, e.g. `gtk3:`, `cinnamon:`, `build:` etc. This makes the commit logs much cleaner.
-
-* Add a *full link* to the pull request you opened, or a related github issue at the end of the commit message for future reference.
-
-
