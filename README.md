@@ -10,7 +10,7 @@ This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by i
 + Improved chromium theme
 + Created gedit theme
 + Created vscode theme
-
++ Created discord theme
 
 ## How it looks
 
@@ -26,4 +26,5 @@ Complementary themes for popular applications.
 ![gedit](screenshots/gedit.png)
 ![vscode](screenshots/vscode.png)
 ![chromium](screenshots/chromium.png)
+![discord](screenshots/discord.png)
 
