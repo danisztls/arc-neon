@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="arc-darkest" _name="Arc Darkest" version="1.0">
-  <author>danielsouzat</author>
-  <_description>Color scheme based on arc dark and my custom terminal colors.</_description>
+<style-scheme id="arc-dark" _name="Arc Dark" version="1.0">
+  <author>lbcnz</author>
+  <_description>Color scheme based on arc-theme dark.</_description>
 
-  <!-- Darkest Palette -->
+  <!-- Dark Palette -->
   <color name="base03"  value="#38424A"/>
   <color name="base02"  value="#323843"/>
   <color name="base01"  value="#eceff1"/>

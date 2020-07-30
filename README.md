@@ -1,4 +1,4 @@
-This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained [horst3180/arc-theme](ihttps://github.com/horst3180/arc-theme). Changes were made only in the Gnome Shell and GTK parts of the theme.
+This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained [horst3180/arc-theme](ihttps://github.com/horst3180/arc-theme). Changes were made only in the Gnome Shell and GTK parts of the theme. Check also [horst3180/arc-icon-theme](https://github.com/horst3180/arc-icon-theme).
 
 # Changes from upstream
 + Improved top bar visibility by increasing font size 
