@@ -3,9 +3,3 @@
 
 *v0.1.3 is working fine but newer v0.1.4 is broken.*
 
-## Electron
-A Electron Discord wrapper. I'm trying to make CSS injection works and transparency works. Everything works fine except screen sharing. It's faster than official app and Chromium.
-
-## Nativefier
-A Nativefier Discord wrapper.
-
