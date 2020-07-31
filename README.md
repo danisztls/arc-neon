@@ -1,4 +1,12 @@
-## Introduction
+
+<!-- TOC GitLab -->
+
+- [Changes from upstream](#changes-from-upstream)
+- [How it looks](#how-it-looks)
+- [Extras](#extras)
+- [Contributing](#contributing)
+
+<!-- /TOC -->
 
 This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained [horst3180/arc-theme](ihttps://github.com/horst3180/arc-theme). Changes were made only in the Gnome Shell and GTK parts of the theme. Check also [horst3180/arc-icon-theme](https://github.com/horst3180/arc-icon-theme).
 
@@ -27,4 +35,8 @@ Complementary themes for popular applications.
 ![vscode](screenshots/vscode.png)
 ![chromium](screenshots/chromium.png)
 ![discord](screenshots/discord.png)
+
+
+## Contributing
+Check what I'm planning and how to contribute in [Development](DEVELOPMENT.md). Feel free to open an issue if you have questions or ideas to share. 
 
