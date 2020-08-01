@@ -111,7 +111,7 @@ $wm_icon_active_bg: $selected_fg_color;
 
 //GNOME Shell colors
 
-$shell_osd_background_color: if($transparency == 'true', transparentize(#252A35, 0.1), #252A35);
+$shell_osd_background_color: if($transparency == 'true', transparentize(#252A35, 0.15), #252A35);
 $shell_osd_border_color: if($transparency == 'true', transparentize(#0F1116, 0.15), #0F1116);
 @if $variant == 'lighter' {
   $shell_osd_background_color: if($transparency == 'true', transparentize(white, 0.05), white);

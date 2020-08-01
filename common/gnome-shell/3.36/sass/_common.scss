@@ -33,7 +33,7 @@ $asset_path: assets;
 //
 // Globals
 //
-$font-size: 11;
+$font-size: 10;
 $_bubble_bg_color: opacify($osd_bg_color,0.25);
 $_bubble_fg_color: $osd_fg_color;
 $_bubble_borders_color: transparentize($osd_fg_color,0.8);
@@ -801,10 +801,9 @@ StScrollBar {
 // Top Bar
 //
 #panel {
-  font-weight: bold;
-  font-feature-settings: "tnum";
-  //@include fontsize($font-size * 1.1);
-  height: $font-size * 1.5px + 12px;
+  //font-feature-settings: "tnum";
+  @include fontsize($font-size * 1.2);
+  height: $font-size * 1.5px + 14px;
   background-gradient-direction: none;
   background-color: $shell_osd_background_color;
   //background-clip: padding-box;
@@ -2452,8 +2451,8 @@ StScrollBar {
 .login-dialog {
   //reset
   border: none;
-  background-color: transparent;
-
+  //background-color: transparent;
+  background-color: transparentize($osd_bg_color,0.3);
   .modal-dialog-button-box { spacing: 3px; }
   .modal-dialog-button {
     padding: 3px 18px;
