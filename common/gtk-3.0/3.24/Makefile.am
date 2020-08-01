@@ -1,7 +1,5 @@
 include ../common.am
 
-light/gtk-main-dark.css: gtk-dark.css | light
-	cp "$<" "$@"
 dark/gtk-main.css: gtk-dark.css | dark
 	cp "$<" "$@"
 dark/gtk-main-dark.css: | dark

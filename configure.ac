@@ -1,9 +1,9 @@
 AC_INIT(
-    [arc-theme],
-    [20200513],
-    [https://github.com/jnsh/arc-theme/issues],
-    [arc-theme],
-    [https://github.com/jnsh/arc-theme],
+    [arc-glass],
+    [20200801],
+    [https://github.com/danielsouzat/arc-glass/issues],
+    [arc-glass],
+    [https://github.com/danielsouzat/arc-glass],
     []
 )
 
@@ -13,10 +13,7 @@ AM_INIT_AUTOMAKE([no-dist-gzip dist-xz foreign])
 AC_PROG_LN_S
 AC_PROG_MKDIR_P
 
-ARC_ENABLE([LIGHT],         [light],         [Arc Light],     [disable])
-ARC_ENABLE([DARKER],        [darker],        [Arc Darker],    [disable])
 ARC_ENABLE([DARK],          [dark],          [Arc Dark],      [disable])
-ARC_ENABLE([LIGHTER],       [lighter],       [Arc Lighter],   [disable])
 ARC_ENABLE([GNOME_SHELL],   [gnome-shell],   [GNOME Shell],   [disable])
 ARC_ENABLE([GTK2],          [gtk2],          [GTK2],          [disable])
 ARC_ENABLE([GTK3],          [gtk3],          [GTK3],          [disable])
@@ -27,11 +24,6 @@ AS_IF([test "x$ENABLE_TRANSPARENCY" != xno], [
     AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Darker])
     AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Dark])
     AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Lighter])
-], [
-    AC_SUBST([themedir], [${datadir}/themes/Arc-solid])
-    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Darker-solid])
-    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Dark-solid])
-    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Lighter-solid])
 ])
 
 AS_IF([test "x$ENABLE_GTK3" != xno], [ARC_GTK3])
