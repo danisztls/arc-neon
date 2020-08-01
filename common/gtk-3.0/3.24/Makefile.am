@@ -1,21 +1,11 @@
 include ../common.am
 
-light/gtk-main.css: gtk.css | light
-	cp "$<" "$@"
 light/gtk-main-dark.css: gtk-dark.css | light
-	cp "$<" "$@"
-darker/gtk-main.css: gtk-darker.css | darker
-	cp "$<" "$@"
-darker/gtk-main-dark.css: gtk-dark.css | darker
 	cp "$<" "$@"
 dark/gtk-main.css: gtk-dark.css | dark
 	cp "$<" "$@"
 dark/gtk-main-dark.css: | dark
 	touch "$@"
-lighter/gtk-main.css: gtk-lighter.css | lighter
-	cp "$<" "$@"
-lighter/gtk-main-dark.css: gtk-dark.css | lighter
-	cp "$<" "$@"
 
 %/gtk.css %/gtk-dark.css: | %
 	echo '@import url("resource:///org/gnome/arc-theme/$(subst gtk,gtk-main,$(notdir $@))");' > "$@"
@@ -29,18 +19,5 @@ lighter/gtk-main-dark.css: gtk-dark.css | lighter
 %/gtk.gresource: %/gtk.gresource.xml %/gtk-main.css %/gtk-main-dark.css $(normal) $(hidpi)
 	glib-compile-resources --sourcedir="$(dir $<)" --target="$@" "$<"
 
-if ENABLE_LIGHT
-gtk3theme_DATA = light/gtk.css light/gtk-dark.css light/gtk.gresource
-endif
-
-if ENABLE_DARKER
-gtk3themedarker_DATA = darker/gtk.css darker/gtk-dark.css darker/gtk.gresource
-endif
-
-if ENABLE_DARK
 gtk3themedark_DATA = dark/gtk.css dark/gtk.gresource
-endif
 
-if ENABLE_LIGHTER
-gtk3themelighter_DATA = lighter/gtk.css lighter/gtk-dark.css lighter/gtk.gresource
-endif
