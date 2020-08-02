@@ -52,7 +52,7 @@ endif
 EXTRA_DIST = \
 	assets.txt \
 	$(srcrc) \
-	$(patsubst %,%/assets.svg,light dark) \
-	$(patsubst %,%/gtkrc,light darker dark lighter) \
+	$(patsubst %,%/assets.svg,dark) \
+	$(patsubst %,%/gtkrc,darker dark) \
 	$(patsubst %,menubar-toolbar/menubar-toolbar%,.rc -dark.rc)
 

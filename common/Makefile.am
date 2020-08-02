@@ -12,7 +12,7 @@ if ENABLE_DARK
 themedark_DATA = $(srcdir)/index/dark/index.theme
 endif
 
-ithemedir        = $(DESTDIR)$(themedir)
+#ithemedir        = $(DESTDIR)$(themedir)
 ithemedarkdir    = $(DESTDIR)$(themedarkdir)
 
 install-exec-hook:
@@ -20,23 +20,21 @@ install-exec-hook:
 install-data-local:
 
 if ENABLE_GNOME_SHELL
-	$(MKDIR_P) $(ithemedir)/gnome-shell
-
-if ENABLE_TRANSPARENCY
-	$(SASSC) $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/sass/gnome-shell.scss $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/gnome-shell.css;
-endif
-
-	cd $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION) && cp -RL \
-		common-assets \
-		light-assets \
-		gnome-shell.css \
-		$(ithemedir)/gnome-shell
+#	$(MKDIR_P) $(ithemedir)/gnome-shell
+#
+#if ENABLE_TRANSPARENCY
+#	$(SASSC) $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/sass/gnome-shell.scss $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/gnome-shell.css;
+#endif
+#
+#	cd $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION) && cp -RL \
+#		common-assets \
+#		gnome-shell.css \
+#		$(ithemedir)/gnome-shell
 
 if ENABLE_DARK
 	$(MKDIR_P) $(ithemedarkdir)/gnome-shell
 
 if ENABLE_TRANSPARENCY
-
 	$(SASSC) $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/sass/gnome-shell-dark.scss $(srcdir)/gnome-shell/$(GNOME_SHELL_VERSION)/gnome-shell-dark.css;
 
 endif
