@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="arc-neon" _name="Arc Neon" version="1.0">
+  <author>lbcnz</author>
+  <_description>Color scheme for Arc Neon theme. Version 3.</_description>
+
+  <!-- Color Palette -->
+  <color name="bg0" 	 value="#3b4258"/>
+  <color name="bg1"  	 value="#767b87"/>
+  <color name="bg2"  	 value="#404552"/>
+  <color name="bg3"  	 value="#363c49"/>
+  <color name="fg0"  	 value="#3953a5"/>
+  <color name="fg1"  	 value="#eceff1"/>
+  <color name="fg2"  	 value="#cdf8dc"/>
+  <color name="red"      value="#f21d41"/>
+  <color name="red2"     value="#cc0f2f"/>
+  <color name="yellow"   value="#ffc107"/>
+  <color name="yellow2"  value="#f29800"/>
+  <color name="green"    value="#88f719"/>
+  <color name="green2"   value="#69bf13"/>
+  <color name="cyan"     value="#26a69a"/>
+  <color name="cyan2"    value="#009688"/>
+  <color name="blue"	 value="#00d4ff"/>
+  <color name="blue2"	 value="#00a8e0"/>
+  <color name="magenta"	 value="#a700ff"/>
+  <color name="magenta2" value="#9000ff"/>
+ 
+  <!-- Global Settings -->
+  <style name="background-pattern"          background="bg0"/>
+  <style name="text"                        foreground="fg1" background="bg3"/>
+  <style name="selection"                   foreground="bg3" background="fg2"/>
+  <style name="cursor"                      foreground="fg1"/>
+  <style name="secondary-cursor"            foreground="bg0"/>
+  <style name="current-line"                background="bg2"/>
+  <style name="line-numbers"                foreground="bg1" background="bg2"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="bg3" background="bg1"/>
+  <style name="bracket-mismatch"            foreground="red" background="bg1"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="fg2" background="fg1"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="bg3" background="yellow"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="bg1"/>
+  <style name="def:shebang"                 foreground="bg1" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="magenta"/>
+  <style name="def:special-char"            foreground="green"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="blue"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="red"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="yellow"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                italic="true"/>
+  <style name="def:strong-emphasis"         foreground="yellow2"/>
+  <style name="def:inline-code"             foreground="blue"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="bg1"/>
+  <style name="def:link-symbol"             foreground="bg1" bold="true"/>
+  <style name="def:link-destination"        italic="true" underline="single"/>
+  <style name="def:heading"                 foreground="yellow"/>
+  <style name="def:thematic-break"          foreground="yellow"/>
+  <style name="def:preformatted-section"    foreground="cyan"/>
+  <style name="def:list-marker"             foreground="yellow2"/>
+
+  <!-- Operators -->
+  <style name="def:operator"                foreground="green"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="magenta2"/>
+  <style name="def:error"                   foreground="red" bold="true"/>
+  <style name="def:note"                    foreground="magenta" bold="true"/>
+  <style name="def:net-address"             italic="true" underline="single"/>
+
+  <!-- Heading styles, uncomment to enable -->
+  <style name="def:heading0"                scale="5.0"/>
+  <style name="def:heading1"                scale="2.5"/>
+  <style name="def:heading2"                scale="2.0"/>
+  <style name="def:heading3"                scale="1.7"/>
+  <style name="def:heading4"                scale="1.5"/>
+  <style name="def:heading5"                scale="1.3"/>
+  <style name="def:heading6"                scale="1.2"/>
+</style-scheme>
+
