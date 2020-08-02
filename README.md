@@ -8,17 +8,19 @@
 
 <!-- /TOC -->
 
-This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained [horst3180/arc-theme](ihttps://github.com/horst3180/arc-theme). Changes were made only in the Gnome Shell and GTK parts of the theme. Check also [horst3180/arc-icon-theme](https://github.com/horst3180/arc-icon-theme).
+This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained [horst3180/arc-theme](ihttps://github.com/horst3180/arc-theme).
+
+Arc Neon is a Gnome Shell flat theme with transparent elements and support for popular applications.
 
 
 ## Changes from upstream
 
-+ Improved top bar visibility by increasing font size 
-+ Made opaque elements subtly transparent  
++ Improved top bar 
++ Opaque elements made subtle transparent 
 + Improved chromium theme
-+ Created gedit theme
-+ Created vscode theme
-+ Created discord theme
++ Gedit theme
++ VS Code theme
++ Discord theme
 
 ## How it looks
 
@@ -36,6 +38,10 @@ Complementary themes for popular applications.
 ![chromium](screenshots/chromium.png)
 ![discord](screenshots/discord.png)
 
+I recommned these.
+
+Icons: papi-dark
+Cursors: capitaine
 
 ## Contributing
 Check what I'm planning and how to contribute in [Development](DEVELOPMENT.md). Feel free to open an issue if you have questions or ideas to share. 

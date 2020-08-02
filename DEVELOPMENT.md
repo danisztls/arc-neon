@@ -1,26 +1,16 @@
-I don't have time right now to do all of that but things are planned.
+## Release 1.0
 
-## Issues
-TODO: Gedit syntax colors should match an industrial desaturated thematic, like vscode theme.
 
-## Features
-TODO: Glass theme for vscode.
 
-TODO: Standard collor pallete with terminal color scheme.
+TODO: Update vscode theme.
 
-## Maintainability
-I can downsize the project and cleanup code to make it easier to mantain. Still it's important to keep compatibility with upstream as most bug fixes will be done there. 
 
-TODO: Cleanup repo.
+TODO: Rename to Arc Neon and move to GitLab.
 
-TODO: Rename to Arc Glass, move to GitLab and set an upstream repo.
-
-## Distribution
 TODO: Package for AUR.
 
-TODO: Package vscode theme for extension store.
+TODO: Update screenshots.
 
-TODO: Package for popular distros like Debian/Ubuntu and RHEL/Fedora.
-
-
+# Future
+Package for popular distros like Debian/Ubuntu and RHEL/Fedora. Submit VS Code theme to store. Submit theme to gnome-looks. Fix issues and mantain.
 
