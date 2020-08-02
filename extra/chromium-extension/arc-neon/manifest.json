@@ -1,21 +1,21 @@
 {
-   "description": "Arc-Dark theme for Chromium",
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6RY/VX2xN/FFEQQwi4sSHGaMxF6cARCTsKKxmPhbics9qDIkZxxBqeM4TUhHDhgsZrxZsXAplyKnIjTEIdw96XDK34uF5cqLOG5vzFRIOAdFfCyC9HNupQGg3Vd8PKSVmLZz/2Xsu5zmvx+zz3VIDtNK+HaVktMhJnO9utBougQIDAQAB",
+   "description": "Arc Neon theme for Chromium",
    "manifest_version": 2,
-   "name": "Arc Darkest",
+   "name": "Arc Neon",
    "theme": {
       "colors": {
-         "bookmark_text": [ 238, 238, 238 ],
-         "button_background": [ 59, 66, 80, 1 ],
+         "bookmark_text": [ 236, 239, 241 ],
+         "button_background": [ 118, 123, 135, 0.7 ],
          "frame": [ 47, 52, 63 ],
          "frame_inactive": [ 47, 52, 63 ],
          "frame_incognito": [ 47, 52, 63 ],
          "frame_incognito_inactive": [ 47, 52, 63],
-         "ntp_background": [ 64, 69, 82 ],
-         "ntp_text": [ 238, 238, 238 ],
-         "tab_background_text": [ 110, 125, 140 ],
-         "tab_text": [ 238, 238, 238 ],
-         "toolbar": [ 47, 52, 63 ]
+         "ntp_background": [ 54, 60, 73 ],
+         "ntp_text": [ 236, 239, 241 ],
+         "tab_background_text": [ 207, 216, 220 ],
+         "tab_text": [ 236, 239, 241 ],
+         "toolbar": [ 64, 69, 82 ],
+         "omnibox_background": [ 80, 86, 102 ]
       },
       "images": {
          "theme_frame": "images/theme_frame.png",
