@@ -3,7 +3,8 @@
 
 - [Changes from upstream](#changes-from-upstream)
 - [How it looks](#how-it-looks)
-- [Extras](#extras)
+- [Themes for popular apps](#themes-for-popular-apps)
+- [External resources](#external-resources)
 - [Contributing](#contributing)
 
 <!-- /TOC -->
@@ -12,9 +13,7 @@ This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by i
 
 Arc Neon is a Gnome Shell flat theme with transparent elements and support for popular applications.
 
-
 ## Changes from upstream
-
 + Improved top bar 
 + Opaque elements made subtle transparent 
 + Improved chromium theme
@@ -23,25 +22,19 @@ Arc Neon is a Gnome Shell flat theme with transparent elements and support for p
 + Discord theme
 
 ## How it looks
-
 ![Title bar](screenshots/arc-dark-glass1.png)
 ![Panel OSD](screenshots/arc-dark-glass2.png)
 ![Overview](screenshots/arc-dark-glass3.png)
 
 
-## Extras
-
-Complementary themes for popular applications.
-
+## Themes for popular apps
 ![gedit](screenshots/gedit.png)
 ![vscode](screenshots/vscode.png)
 ![chromium](screenshots/chromium.png)
 ![discord](screenshots/discord.png)
 
-I recommned these.
-
-Icons: papi-dark
-Cursors: capitaine
+## External resources
+I recommned the use of **papirus-dark** icon pack and **capitaine** cursors.
 
 ## Contributing
 Check what I'm planning and how to contribute in [Development](DEVELOPMENT.md). Feel free to open an issue if you have questions or ideas to share. 
