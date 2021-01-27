@@ -20,10 +20,7 @@ ARC_ENABLE([GTK3],          [gtk3],          [GTK3],          [disable])
 ARC_ENABLE([TRANSPARENCY],  [transparency],  [transparency],  [disable])
 
 AS_IF([test "x$ENABLE_TRANSPARENCY" != xno], [
-    AC_SUBST([themedir], [${datadir}/themes/Arc])
-    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Darker])
-    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Dark])
-    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Lighter])
+    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Neon])
 ])
 
 AS_IF([test "x$ENABLE_GTK3" != xno], [ARC_GTK3])

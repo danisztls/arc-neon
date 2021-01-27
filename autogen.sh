@@ -10,4 +10,4 @@ mkdir -p m4
 autoreconf --verbose --force --install || exit $?
 
 cd "$cwd"
-"$srcdir/configure" $@
+"$srcdir/configure" "$@"
