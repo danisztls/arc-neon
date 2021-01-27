@@ -1,29 +1,27 @@
-## Installing Arc from the source
 
-#### Getting the source
+<!-- TOC GitLab -->
 
-To get the source, either clone the git repository with:
+- [Build and install](#build-and-install)
+    - [Installing system wide for all users](#installing-system-wide-for-all-users)
+    - [Installing for single user](#installing-for-single-user)
+- [Dependencies](#dependencies)
+    - [Build dependencies](#build-dependencies)
+    - [Optional build dependencies](#optional-build-dependencies)
+    - [Runtime dependencies](#runtime-dependencies)
+- [Versioned themes](#versioned-themes)
+- [Build options](#build-options)
+- [Uninstallation](#uninstallation)
 
-    git clone https://github.com/jnsh/arc-theme --depth 1
-    cd arc-theme/
+<!-- /TOC -->
 
-Or download and extract a [snapshot](https://github.com/jnsh/arc-theme/archive/master.zip) of the master branch:
-
-    wget https://github.com/jnsh/arc-theme/archive/master.zip
-    unzip master.zip
-    cd arc-theme-master/
-
-#### Build and install
-
-##### Installing system wide for all users
-
+# Build and install
+## Installing system wide for all users
 Install to `/usr/share/themes` for all users by running the following with root permissions:
 
     ./autogen.sh --prefix=/usr
     make install
 
-##### Installing for single user
-
+## Installing for single user
 Use the following commands to install the theme to `~/.local/share/themes/` for your user only:
 
     ./autogen.sh --prefix=$HOME/.local
@@ -36,10 +34,8 @@ Use the following commands to install the theme to `~/.local/share/themes/` for 
       [ -d ~/.local/share/themes/$d ] && ln -s ~/.local/share/themes/$d ~/.themes/;
     done
 
-## Dependencies
-
-#### Build dependencies
-
+# Dependencies
+## Build dependencies
 To build the theme the following packages are required:
 * `autoconf`
 * `automake`
@@ -51,13 +47,11 @@ The following packages are only required for building certain themes:
 
 You can avoid these dependencies by disabling support for the specific themes with build options detailed below.
 
-##### Optional build dependencies
-
+## Optional build dependencies
 The following packages are optional, but used to optimize the built theme if available:
 * `optipng` for optimizing PNG assets for GTK 2, GTK 3, and XFWM
 
-#### Runtime dependencies
-
+## Runtime dependencies
 For the GTK 2 theme to function properly, install the following:
 * `gnome-themes-extra`, or `gnome-themes-standard` before GNOME version 3.28
 * The murrine GTK 2 engine. This has different names depending on the distribution:
@@ -67,8 +61,7 @@ For the GTK 2 theme to function properly, install the following:
   * `gtk2-engine-murrine` (openSUSE)
   * `gtk-engines-murrine` (Gentoo)
 
-## Versioned themes
-
+# Versioned themes
 The source code comes branched for different versions of GTK 3, GNOME Shell, and Cinnamon. Only one version of those themes will be installed, and using the wrong versions will result in issues of varying severity.
 
 The theme versions that will be built can be set manually with build options. Otherwise the build system tries to determine correct versions using the following packages on the build environment:
@@ -80,8 +73,7 @@ The above packages are not required if the theme versions are defined manually (
 
 **Note:** The build will fail, if GTK 3, Cinnamon, or GNOME Shell versions can't be determined. You can work around this by either disabling the build of a specific theme, or by specifying the versions manually with build options detailed below.
 
-## Build options
-
+# Build options
 Options to pass to `autogen.sh`:
 
     --disable-transparency        disable transparency in the theme
@@ -106,8 +98,7 @@ Options to pass to `autogen.sh`:
 
 If the `--disable-transparency` option was used, the theme will be installed with `-solid` suffix.
 
-## Uninstallation
-
+# Uninstallation
 Run the following from the source code directory:
 
     make uninstall

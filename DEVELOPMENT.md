@@ -1,13 +1,8 @@
-## 1.0
-- Submit to AUR
-- Update vscode theme
+## ToDo
 - Update screenshots
-- Move to GitLab
-
-# Future
+- Submit to AUR
+- Update vscode theme and submit to store
 - Package for Debian/Ubuntu
 - Package for RHEL/Fedora
-- Submit theme to gnome-looks
-- Submit new vscode theme to store
 - Merge improvements from upstream
 
