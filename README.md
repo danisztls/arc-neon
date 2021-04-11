@@ -1,22 +1,21 @@
-
-<!-- TOC GitLab -->
-
-* [Changes from upstream](#changes-from-upstream)
-* [How it looks](#how-it-looks)
-    * [Gedit](#gedit)
-    * [VSCode](#vscode)
-    * [Chromium](#chromium)
-    * [Discord](#discord)
-    * [GNOME](#gnome)
-* [3rd party extra](#3rd-party-extra)
-
-<!-- /TOC -->
-
-This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained anymore [horst3180/arc-theme](https://github.com/horst3180/arc-theme).
+**NOTICE:** I'm not mantaining this, use the upstream theme instead.
 
 Arc Neon is a Gnome Shell flat theme with transparent elements and support for popular applications.
 
-**NOTICE:** I'm not mantaining this, I recommend the use of the upstream theme instead of this fork due to it being actively mantained and widespread available in the repos of popular distros. Changes are subtle and you can copy my extra themes to complement it.
+This is a fork of [jnsh/arc-theme](https://github.com/jnsh/arc-theme), that by itself is a fork of the original and not mantained anymore [horst3180/arc-theme](https://github.com/horst3180/arc-theme).
+
+<!-- TOC GFM -->
+
+* [Changes from upstream](#changes-from-upstream)
+* [How it looks](#how-it-looks)
+  * [Gedit](#gedit)
+  * [VSCode](#vscode)
+  * [Chromium](#chromium)
+  * [Discord](#discord)
+  * [GNOME](#gnome)
+* [3rd party extra](#3rd-party-extra)
+
+<!-- /TOC -->
 
 ## Changes from upstream
 + Improved top bar readability 
@@ -48,4 +47,3 @@ Arc Neon is a Gnome Shell flat theme with transparent elements and support for p
 
 ## 3rd party extra
 **Papirus Dark** icon pack and **Capitaine** cursors are a good combination to this theme.
-
